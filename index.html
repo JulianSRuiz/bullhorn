@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bullhorn</title>
+</head>
+
+<body>
+    <section id="navigation">
+        <div class="container py-3 d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo-img">
+                    <a class=" navbar-brand" href="#"><img src="assets/logo.svg" class="logo" alt=""></a>
+                </div>
+                <button class="navbar-toggler " type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav mr-auto justify-content-end">
+                        <li class="nav-item dropdown mx-md-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">ATS & CRM</a>
+                                <a class="dropdown-item" href="#">Onboarding</a>
+                                <a class="dropdown-item" href="#">Salesforce Solutions</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mx-md-3">
+                            <a href="#" class="nav-link">Solutions</a>
+                        </li>
+                        <li class="nav-item mx-md-3">
+                            <a class="nav-link" href="#">Resources</a>
+                        </li>
+                        <li class="nav-item mx-md-3">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Company</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="main-banner">
+        <div class="jumbotron overlay">
+            <div class="container">
+                <div class="banner-text col-md-8 col-lg-6 col-xs-12">
+                    <h1 class="h1 display-4 mb-4 font-weight-bolder">Our customers are changing the world</h1>
+                    <p class="lead">Bullhorn fosters a culture of innovation, philanthropy, and inclusion, driven by our
+                        core values and a team of experienced leaders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-3">
+        <div class="container my-5">
+            <div class="row my-5">
+                <div class="col-lg-6 col-xs-12 pr-md-5">
+                    <h2 class="my-4 font-weight-bolder">Our customers give human beings security, purpose, and
+                        dignity
+                    </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At maiores exercitationem, suscipit
+                        voluptas cumque nostrum accusantium laboriosam pariatur doloremque temporibus velit nihil eum
+                        possimus neque! Repellat non beatae nesciunt enim.
+                        Nostrum aperiam id quasi dolor officia aspernatur maxime aut rem quisquam voluptatibus nobis
+                        excepturi eligendi error, doloremque rerum cum repellendus magnam at explicabo quo sunt. Qui
+                        fuga
+                        corporis quod placeat.</p>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <img src="assets/employees.jpg" class="details-img pull-right" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-truth-platform">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 my-5 px-xs-2  px-lg-5">
+                    <h2 class="text-white font-weight-bolder">One Team</h2>
+                    <img class="ttp-icon" src="assets/one_Icon_dark.png" alt="">
+                    <p class="text-white">Bullhorn unifies your entire agency with solutions that align the work of
+                        every
+                        department, individual, and role to achieve profit, growth, and a seamless candidate and
+                        customer
+                        experience.</p>
+                </div>
+                <div class="col-md-4 col-xs-12 my-5 px-xs-2 px-lg-5">
+                    <h2 class="text-white font-weight-bolder">One Truth</h2>
+                    <img class="ttp-icon" src="assets/one_Icon_dark.png" alt="">
+                    <p class="text-white">Bullhorn centralizes the management of critical information that fuels your
+                        entire
+                        staffing business.</p>
+                </div>
+                <div class="col-md-4 col-xs-12 my-5 px-xs-2 px-lg-5">
+                    <h2 class="text-white font-weight-bolder">One Platform</h2>
+                    <img class="ttp-icon" src="assets/one_Icon_dark.png" alt="">
+                    <p class="text-white">Customize our solution to fit your needs, differentiate your firm, and future
+                        proof your investments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-5">
+        <div class="container">
+            <div class="tab my-5 row">
+                <button class="tablinks col-xs-6 active" onclick="openTab(event, 'ownership')">Ownership</button>
+                <button class="tablinks col-xs-6" onclick="openTab(event, 'energy')">Energy</button>
+                <button class="tablinks col-xs-6" onclick="openTab(event, 'service')">Service</button>
+                <button class="tablinks col-xs-6" onclick="openTab(event, 'human')">Be Human</button>
+            </div>
+            <div id="ownership" class="tabcontent" style="display: block;">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <img class="details-img" src="assets/whiteboard.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 col-xs-12 my-4  pl-md-5">
+                        <h2 class="font-weight-bolder">Innovating for the recruiting industry for almost 20 years</h2>
+                        <p>Make better decisions, improve sales and recruiter productivity, and manage the entire
+                            recruitment and applicant management process from a single, easy-to-use interface.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="energy" class="tabcontent">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <img class="details-img" src="assets/management.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 col-xs-12 my-4  pl-md-5">
+                        <h2 class="font-weight-bolder">Manage & Place</h2>
+                        <p>Fill jobs, and automate candidate onboarding to save time and money. Everything you, your
+                            candidates, and your clients need for a smooth placement process.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="service" class="tabcontent">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <img class="details-img" src="assets/service.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 col-xs-12 my-4  pl-md-5">
+                        <h2 class="font-weight-bolder">Pay & Bill</h2>
+                        <p>Collect and interpret time, issue invoices, calculate gross pay, and track gross margin with
+                            pay/bill management as reliable as your brand.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="human" class="tabcontent">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <img class="details-img" src="assets/friends.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 col-xs-12 my-4  pl-md-5">
+                        <h2 class="font-weight-bolder">Report & Measure</h2>
+                        <p>Make better decisions throughout the entire lifecycle with fully-embedded business
+                            intelligence and reporting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+/* Nav */
+#navigation {
+    box-shadow: 0 2px 2px lightgrey;
+}
+
+.navbar-expand-lg {
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav {
+    width: 100%;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+/* Banner */
+.main-banner {
+    background-image: url('assets/skyscrapers.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.overlay {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6965161064425771) 30%, rgba(255,255,255,0) 100%);
+    height: 100%;
+}
+
+.banner-text {
+    color: white;
+}
+
+.display-4 {
+    margin-top: 50px;
+}
+
+
+
+/* Content */
+.team-truth-platform {
+    background-color: #202945;
+    text-align: center;
+}
+
+.details-img {
+    width: 100%;
+}
+
+.ttp-icon {
+    margin: 30px 0;
+}
+
+
+/* Tabs */
+.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px 5px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  
+  .tab button.active {
+    border-bottom: 3px solid orange;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .banner-text {
+        padding: 0;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}

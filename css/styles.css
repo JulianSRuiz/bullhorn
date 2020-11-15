@@ -17,7 +17,7 @@
 
 /* Banner */
 .main-banner {
-    background-image: url('assets/skyscrapers.jpg');
+    background-image: url('../assets/skyscrapers.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
